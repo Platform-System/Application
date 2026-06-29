@@ -23,7 +23,6 @@ namespace Platform.Application.Abstractions.Data
         void Remove(T entity);
         Task<int> DeleteRangeAsync(Expression<Func<T, bool>> predicate);
         Task<int> DeleteInBatchesAsync(Expression<Func<T, bool>> predicate, Expression<Func<T, DateTime>> orderBy, Expression<Func<T, Guid>> keySelector, int batchSize = 100);
-        IQueryable<T> GetQueryable();
         Task<int> TotalAsync(Expression<Func<T, bool>> predicate);
     }
 }
