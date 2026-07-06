@@ -135,7 +135,7 @@ public sealed class TransactionBehaviorTests
             _unitOfWork = unitOfWork;
         }
 
-        public Guid TransactionId { get; } = Guid.NewGuid();
+        public Guid TransactionId { get; } = Guid.CreateVersion7();
         public int CommitCallCount { get; private set; }
         public int RollbackCallCount { get; private set; }
         public bool SupportsSavepoints => false;
