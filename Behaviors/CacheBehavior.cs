@@ -1,7 +1,7 @@
-using Platform.Application.Abstractions.Caching;
+using Application.Abstractions.Caching;
 using MediatR;
 
-namespace Platform.Application.Behaviors
+namespace Application.Behaviors
 {
     public class CacheBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

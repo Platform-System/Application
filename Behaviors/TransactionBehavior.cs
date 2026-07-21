@@ -1,10 +1,10 @@
-using Platform.Application.Abstractions.Data;
-using Platform.Application.Messaging;
+using Application.Abstractions.Data;
+using Application.Messaging;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using Platform.BuildingBlocks.Responses;
+using BuildingBlocks.Responses;
  
-namespace Platform.Application.Behaviors
+namespace Application.Behaviors
 {
     public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

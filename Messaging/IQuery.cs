@@ -1,7 +1,7 @@
 using MediatR;
-using Platform.BuildingBlocks.Responses;
+using BuildingBlocks.Responses;
 
-namespace Platform.Application.Messaging
+namespace Application.Messaging
 {
     public interface IQuery<TResponse> : IRequest<Result<TResponse>>
     {

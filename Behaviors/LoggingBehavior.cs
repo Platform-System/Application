@@ -1,8 +1,8 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
-using Platform.BuildingBlocks.DateTimes;
+using BuildingBlocks.DateTimes;
 
-namespace Platform.Application.Behaviors
+namespace Application.Behaviors
 {
     public class LoggingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

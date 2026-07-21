@@ -1,11 +1,11 @@
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
-using Platform.BuildingBlocks.Responses;
+using BuildingBlocks.Responses;
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace Platform.Application.Behaviors
+namespace Application.Behaviors
 {
     public class ExceptionHandlingBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
         where TRequest : IRequest<TResponse>

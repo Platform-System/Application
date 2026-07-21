@@ -1,4 +1,4 @@
-namespace Platform.Application.Abstractions.Caching
+namespace Application.Abstractions.Caching
 {
     public interface ICacheable
     {

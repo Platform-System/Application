@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace Platform.Application.Messaging
+namespace Application.Messaging
 {
     public interface IHasPreCommitEvent
     {

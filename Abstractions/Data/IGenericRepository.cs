@@ -1,8 +1,8 @@
 using System.Linq.Expressions;
-using Platform.BuildingBlocks.Responses;
-using Platform.Domain.Common;
+using BuildingBlocks.Responses;
+using Domain.Common;
 
-namespace Platform.Application.Abstractions.Data
+namespace Application.Abstractions.Data
 {
     public interface IGenericRepository<T> where T : Entity
     {

@@ -1,10 +1,10 @@
 using FluentValidation;
 using MediatR;
-using Platform.BuildingBlocks.Responses;
+using BuildingBlocks.Responses;
 using System.Collections.Concurrent;
 using System.Reflection;
 
-namespace Platform.Application.Behaviors
+namespace Application.Behaviors
 {
     public class ValidationBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse> 
         where TRequest : IRequest<TResponse>

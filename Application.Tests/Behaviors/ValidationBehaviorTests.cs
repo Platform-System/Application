@@ -1,11 +1,11 @@
 using FluentValidation;
 using MediatR;
-using Platform.Application.Behaviors;
-using Platform.Application.Messaging;
-using Platform.BuildingBlocks.Responses;
+using Application.Behaviors;
+using Application.Messaging;
+using BuildingBlocks.Responses;
 using Xunit;
 
-namespace Platform.Application.Tests.Behaviors;
+namespace Application.Tests.Behaviors;
 
 public sealed class ValidationBehaviorTests
 {

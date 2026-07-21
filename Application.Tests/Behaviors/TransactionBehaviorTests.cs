@@ -1,14 +1,14 @@
 using MediatR;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging.Abstractions;
-using Platform.Application.Abstractions.Data;
-using Platform.Application.Behaviors;
-using Platform.Application.Messaging;
-using Platform.BuildingBlocks.Responses;
-using Platform.Domain.Common;
+using Application.Abstractions.Data;
+using Application.Behaviors;
+using Application.Messaging;
+using BuildingBlocks.Responses;
+using Domain.Common;
 using Xunit;
 
-namespace Platform.Application.Tests.Behaviors;
+namespace Application.Tests.Behaviors;
 
 public sealed class TransactionBehaviorTests
 {

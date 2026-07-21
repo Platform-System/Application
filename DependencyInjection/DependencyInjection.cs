@@ -1,9 +1,9 @@
 using FluentValidation;
 using Microsoft.Extensions.DependencyInjection;
-using Platform.Application.Behaviors;
+using Application.Behaviors;
 using System.Reflection;
 
-namespace Platform.Application.DependencyInjection;
+namespace Application.DependencyInjection;
 
 public static class DependencyInjection
 {

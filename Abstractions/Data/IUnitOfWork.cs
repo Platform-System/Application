@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore.Storage;
-using Platform.Domain.Common;
+using Domain.Common;
 
-namespace Platform.Application.Abstractions.Data
+namespace Application.Abstractions.Data
 {
     public interface IUnitOfWork
     {

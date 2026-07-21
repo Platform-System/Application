@@ -1,4 +1,4 @@
-namespace Platform.Application.Abstractions.Storage;
+namespace Application.Abstractions.Storage;
 
 public interface IBlobService
 {
